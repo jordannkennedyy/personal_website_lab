@@ -2,6 +2,11 @@ body{
     background-color: #f5f5dc;
 }
 
+nav{
+
+    text-align: center;
+}
+
 h1{
     text-align: center;
     color: #6F3811;
