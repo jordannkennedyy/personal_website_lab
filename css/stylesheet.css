@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body{
     background-color: #f5f5dc;
 }
@@ -12,6 +14,12 @@ h1{
     text-align: center;
     color: #6F3811;
     font-size: xx-large; 
+}
+
+#My_Header{
+
+font-family: 'Montserrat', sans-serif;
+
 }
 
 h2{
