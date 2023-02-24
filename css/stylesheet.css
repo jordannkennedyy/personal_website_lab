@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body{
-    background-color: #f5f5dc;
-}
-
-nav{
-
-    text-align: center;
-    background-color: gainsboro
-}
-
 h1{
     text-align: center;
     color: #6F3811;
@@ -26,6 +16,48 @@ h2{
     text-decoration: underline;
 }
 
+
+
+
+/* flex box wrapper */
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper2{
+    background-color: lightblue;
+}
+
+header{
+    flex: 1 0 100%;
+    margin: 0;
+}
+
+.flex-item2{
+    margin: 0%;
+}
+
+body{
+    background-color: #f5f5dc;
+    flex: 1 0 100%;
+}
+
+nav{
+
+    text-align: center;
+    flex: 1 0 100%;
+    margin: 0;
+}
+
+.flex-item1{
+    margin: 0%;
+}
+
+
 footer{
     text-align: center;
+    flex: 1 0 100%;
+    background-color: lightblue;
 }
