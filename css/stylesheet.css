@@ -84,3 +84,28 @@ footer{
     justify-self: center;
     margin: 2em;
 }
+
+
+
+
+/*--------------->Style for courses.html<----------------------*/
+
+@media screen and (min-width:600px){
+    article{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr;
+    }
+
+    .article1{
+
+    }
+
+    .article2{
+
+    }
+
+    .article3{
+        
+    }
+}
