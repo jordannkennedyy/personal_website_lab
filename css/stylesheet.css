@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+.indexfont h1{
+    font-size: xx-large;
+}
+
+
+
 h1{
     text-align: center;
     color: #6F3811;
-    font-size: xx-large; 
 }
 
 #My_Header{
@@ -88,24 +93,75 @@ footer{
 
 
 
+
+
+
+
+
+
 /*--------------->Style for courses.html<----------------------*/
 
+.coursenav{
+    background-color: lightblue;
+}
+
+.coursefooter{
+    background-color: lightblue;
+}
+
+/* .coursebody{
+    display: flex;
+} */
+
+.article1{
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.article2{
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.article3{
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+/*--------------->Style for courses.html media<----------------------*/
+
 @media screen and (min-width:600px){
-    article{
+
+    .coursesection{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 200px);
+    }
+
+
+    /* .coursebody{
         display: grid;
         grid-template-columns: 1fr, 1fr;
         grid-template-rows: 1fr, 1fr, 1fr;
-    }
+    } */
 
     .article1{
+        padding-bottom: 50px;
+        grid-column: auto;
+        grid-row: 1
 
     }
-
     .article2{
+        padding-bottom: 50px;
+        grid-column: auto;
+        grid-row: 2;
 
     }
 
     .article3{
-        
+        padding-bottom: 50px;
+        grid-column: auto;
+        grid-row: 3;
+
     }
 }
