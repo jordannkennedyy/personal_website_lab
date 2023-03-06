@@ -14,6 +14,7 @@
 #My_Header{
 
 font-family: 'Montserrat', sans-serif;
+text-align: center;
 
 }
 
@@ -163,6 +164,21 @@ footer{
         display: flex;
         justify-content: center;
     }
+
+        /*<---------new--------.*/
+
+    .course-article{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .course-para{
+        grid-column: 2/4;
+        padding: 40px;
+    
+    }
+
+    /*<---------new--------.*/
 
     article{
         grid-column: 1/4;
